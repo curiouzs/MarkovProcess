@@ -31,5 +31,10 @@ for i in range(1,n+1):
     print("The %d -step probability distribution is &"%i)
     print(p0)
 ```
-# Results and Output : 
+# Output : 
+<img width="277" alt="maths 5" src="https://user-images.githubusercontent.com/75234646/170207914-3c7e3afb-5c03-459c-a0d9-1f25e393252b.png">
+
+# Results :
+Thus the n-step probability distribution matrix using Markov's Process has been found.
+
 
