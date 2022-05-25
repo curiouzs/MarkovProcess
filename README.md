@@ -1,6 +1,4 @@
 # Markov Process
-
-
 # Aim : 
 
 ![image](https://user-images.githubusercontent.com/104613195/170176804-7a25305b-c5e3-4b93-8201-8ebbe99765cc.png)
@@ -21,12 +19,17 @@ Assumptions for Markov Chain :
 
 ![image](https://user-images.githubusercontent.com/104613195/170175685-c6187523-f268-4a3b-b03d-8bbe62647a57.png)
 
-
-
 # Program
 
-
-
-
+```python
+import numpy as np
+p0 = [0.3,0.2,0.5]
+p = [[0,2/3,1/3],[1/2,0,1/2],[1/2,1/2,0]]
+n=6
+for i in range(1,n+1):
+    p0 = np.multiply(p0,p)
+    print("The %d -step probability distribution is &"%i)
+    print(p0)
+```
 # Results and Output : 
 
