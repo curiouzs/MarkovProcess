@@ -1,5 +1,5 @@
-## EXP.NO: 05
-## DATE : 25.05.2022
+### EXP.NO: 05
+### DATE : 25.05.2022
 # Markov Process
 # Aim : 
 ![image](https://user-images.githubusercontent.com/104613195/170176804-7a25305b-c5e3-4b93-8201-8ebbe99765cc.png)
